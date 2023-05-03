@@ -15,8 +15,7 @@ spec:
    name: mavenapppod
    labels:
      app: mavenapp	 
-  spec:
-    serviceAccountName: myAccount
+  spec: 
     containers:
     - name: mavenappcontainer
       image: yogeshac/maven_app
